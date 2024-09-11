@@ -1,7 +1,3 @@
-Here’s a formatted version of your README file:
-
----
-
 # SIT729 Final Task
 
 ## Project Overview
