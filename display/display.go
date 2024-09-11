@@ -113,7 +113,7 @@ func periodicallySaveToMongoDB() {
 
 func main() {
 	// MongoDB connection setup
-	clientOptions := options.Client().ApplyURI("mongodb+srv://ajitmudgerikar:ajitsit729@ajitsit729.p7gfv.mongodb.net/?retryWrites=true&w=majority&appName=AjitSIT729")
+	clientOptions := options.Client().ApplyURI("mongo_connection_uri")
 	client, err := mongo.Connect(context.TODO(), clientOptions)
 	if err != nil {
 		log.Fatalf("Failed to connect to MongoDB: %v", err)
